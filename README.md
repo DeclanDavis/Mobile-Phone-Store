@@ -1,7 +1,7 @@
 # **Mobile Phone Store Application**
 
 ## **Overview**
-This is a web-based application for an online mobile phone store maintaining a database of customers, mobiles and orders. This project provides CRUD functionality for Creating, Retrieving (Searching), Updating, and Deleting Customer, Mobile and Order information from a MongoDB database.
+This is a web-based application for an online mobile phone store maintaining a database of `customers`, `mobiles` and `orders`. This project provides CRUD functionality for **Creating, Retrieving (Searching), Updating,** and **Deleting** `Customer`, `Mobile` and `Order` information from a MongoDB database.
 
 This project was made as part of my module, **Web Information Processing** in Maynooth University, National University of Ireland Maynooth.
 
@@ -91,6 +91,25 @@ This project was made as part of my module, **Web Information Processing** in Ma
 
 4. **Run the Frontend:**
    - Right click `assignment-05.html`, then click 'Show in browser', to access the web application.
+  
+
+
+## Frontend
+
+## Overview
+
+The frontend of this project is designed as a single HTML page that includes forms and interactive elements. The page provides CRUD functionality for Creating, Retrieving (Searching), Updating, and Deleting Customer, Mobile and Order information.
+
+Customers, Mobiles and Orders each have:
+1. **Create Form** - A form for adding new customers, mobiles or orders. Red asterix indicates a maditory field.
+2. **Retrieve Form** - A search bar with an in page console view displaying the results in JSON format.  Can retrieve a customer, mobile or order randomly, by searching it's name or retrieve all the results.
+3. **Update Form** - A form for updating a random customer, mobile or order information.
+4. **Delete Form** - A deletion form based on composite key depending on the entity and a confirmation box to confirm deletion.
+
+
+**JavaScript (AJAX and jQuery)**
+   - Handles CRUD operations by sending AJAX requests to the backend and updating the frontend dynamically based on the responses.
+
 
 ## DATABASE DESIGN
 
@@ -651,24 +670,6 @@ Invoke-WebRequest -Uri 'http://localhost:5555/order/6622efae666ceebe10af66cc' -M
 ```
 Invoke-WebRequest -Uri 'http://localhost:5555/order/66255071aa7fc0dbcd63befc' -Method DELETE
 ```
-
-
-
-## Frontend
-
-## Overview
-
-The frontend of this project is designed as a single HTML page that includes forms and interactive elements. The page provides CRUD functionality for Creating, Retrieving (Searching), Updating, and Deleting Customer, Mobile and Order information.
-
-Customers, Mobiles and Orders each have:
-1. **Create Form** - A form for adding new customers, mobiles or orders. Red asterix indicates a maditory field.
-2. **Retrieve Form** - A search bar with an in page console view displaying the results in JSON format.  Can retrieve a customer, mobile or order randomly, by searching it's name or retrieve all the results.
-3. **Update Form** - A form for updating a random customer, mobile or order information.
-4. **Delete Form** - A deletion form based on composite key depending on the entity and a confirmation box to confirm deletion.
-
-
-**JavaScript (AJAX and jQuery)**
-   - Handles CRUD operations by sending AJAX requests to the backend and updating the frontend dynamically based on the responses.
 
 ## References
 
