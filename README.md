@@ -1,7 +1,7 @@
 # **Mobile Phone Store Application**
 
 ## **Overview**
-This is a web-based application for an online mobile phone store maintaining a database of `customers`, `mobiles` and `orders`. This project provides CRUD functionality for **Creating, Retrieving (Searching), Updating,** and **Deleting** `Customer`, `Mobile` and `Order` information from a MongoDB database.
+This is a web-based application for an online **Mobile Phone Store** maintaining a database of `customers`, `mobiles` and `orders`. This project provides CRUD functionality for **Creating, Retrieving (Searching), Updating,** and **Deleting** `Customer`, `Mobile` and `Order` information from a MongoDB database.
 
 This project was made as part of my module, **Web Information Processing** in Maynooth University, National University of Ireland Maynooth.
 
