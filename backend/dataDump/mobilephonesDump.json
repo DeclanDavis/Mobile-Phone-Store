@@ -1,0 +1,120 @@
+[{
+    "_id": {
+        "$oid": "661f8c3e2627f0969359aac2"
+    },
+    "manufacturer": "Apple",
+    "model": "iPhone X11",
+    "price": 79.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:45:50.179Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-17T13:36:21.863Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8c632627f0969359aac4"
+    },
+    "manufacturer": "Apple",
+    "model": "iPhone-S12",
+    "price": 99.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:46:27.168Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-17T08:46:27.168Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8c742627f0969359aac6"
+    },
+    "manufacturer": "Apple",
+    "model": "iPhone-E2",
+    "price": 199.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:46:44.252Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-17T08:46:44.252Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8cb02627f0969359aaca"
+    },
+    "manufacturer": "Samsung",
+    "model": "Galaxy T-19",
+    "price": 89.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:47:44.491Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-17T08:47:44.491Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8cbf2627f0969359aacc"
+    },
+    "manufacturer": "Samsung",
+    "model": "Galaxy G-5",
+    "price": 149.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:47:59.242Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T10:48:07.829Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8ce82627f0969359aace"
+    },
+    "manufacturer": "Nokia",
+    "model": "Nokia X6310",
+    "price": 59.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:48:40.842Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T10:46:26.578Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f8cf82627f0969359aad0"
+    },
+    "manufacturer": "Nokia",
+    "model": "Nokia T-30",
+    "price": 69.99,
+    "createdAt": {
+        "$date": "2024-04-17T08:48:56.956Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-17T08:48:56.956Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "662630a4cd6f08d88ca571e0"
+    },
+    "manufacturer": "Apple",
+    "model": "iPhone X-01",
+    "price": 35.99,
+    "createdAt": {
+        "$date": "2024-04-22T09:40:52.575Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T10:52:44.96Z"
+    },
+    "__v": 0
+}]

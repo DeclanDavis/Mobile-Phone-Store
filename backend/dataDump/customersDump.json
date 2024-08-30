@@ -1,0 +1,310 @@
+[{
+    "_id": {
+        "$oid": "661ee010dfef4f00ae123ae1"
+    },
+    "title": "Mr",
+    "firstName": "Homer",
+    "surname": "Simpson",
+    "mobile": "0851234567",
+    "emailAddress": "homer.simpson@gmail.com",
+    "homeAddress": {
+        "addressLine1": "742 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "1 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-16T20:31:12.372Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-16T20:31:12.372Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661ee118dfef4f00ae123ae3"
+    },
+    "title": "Dr",
+    "firstName": "Barney",
+    "surname": "Gumble",
+    "mobile": "08586364758",
+    "emailAddress": "dr.random@gmail.com",
+    "homeAddress": {
+        "addressLine1": "1 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "3 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-16T20:35:36.345Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T20:41:49.175Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661ee18edfef4f00ae123ae5"
+    },
+    "title": "Dr",
+    "firstName": "Julius",
+    "surname": "Hibbert",
+    "mobile": "086342153567",
+    "emailAddress": "dr.hibbert@gmail.com",
+    "homeAddress": {
+        "addressLine1": "2 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "4 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-16T20:37:34.483Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-16T20:37:34.483Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "661f80b3bb6ef4d25d59e01e"
+    },
+    "title": "Dr",
+    "firstName": "Milhouse",
+    "surname": "Vanhouten",
+    "mobile": "0865342536",
+    "emailAddress": "dr.RANDOM@gmail.com",
+    "homeAddress": {
+        "addressLine1": "741 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "7 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-17T07:56:35.607Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T20:43:24.417Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "662562e94f8899505ffca5a2"
+    },
+    "title": "Mr",
+    "firstName": "Carl",
+    "surname": "Carlson",
+    "mobile": "085123403567",
+    "emailAddress": "carl.carlson@gmail.com",
+    "homeAddress": {
+        "addressLine1": "739 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "10 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-21T19:03:05.256Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T19:03:05.256Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6625653e4f8899505ffca5a6"
+    },
+    "title": "Mr",
+    "firstName": "Rod",
+    "surname": "Flanders",
+    "mobile": "0876543456",
+    "emailAddress": "customer@gmail.com",
+    "homeAddress": {
+        "addressLine1": "743 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "Red Lane 7",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-21T19:13:02.808Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T19:36:30.395Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6625770166a003d317c974ec"
+    },
+    "title": "Mx",
+    "firstName": "Marge",
+    "surname": "Simpson",
+    "mobile": "0875364758",
+    "emailAddress": "RandomEmailUpdate@gmail.com",
+    "homeAddress": {
+        "addressLine1": "742 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "4 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-21T20:28:49.227Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T20:39:13.884Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "66257c27df1d9e89fffd3653"
+    },
+    "title": "Mr",
+    "firstName": "Clancy",
+    "surname": "Wiggum",
+    "mobile": "0855123567",
+    "emailAddress": "clancy.wiggum@gmail.com",
+    "homeAddress": {
+        "addressLine1": "738 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "11 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-21T20:50:47.915Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T20:50:47.915Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6626ba7c275890ac6200e78b"
+    },
+    "title": "Mr",
+    "firstName": "Ned",
+    "surname": "Flanders",
+    "mobile": "08564723567",
+    "emailAddress": "ned.flanders@gmail.com",
+    "homeAddress": {
+        "addressLine1": "743 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "4 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-22T19:29:00.033Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T19:29:00.033Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6626bc10b838cf8ecf851c24"
+    },
+    "title": "Ms",
+    "firstName": "Lisa",
+    "surname": "Simpson",
+    "mobile": "085647723567",
+    "emailAddress": "lisa.simpson@gmail.com",
+    "homeAddress": {
+        "addressLine1": "742 Evergreen Terrace",
+        "addressLine2": "",
+        "town": "Springfield",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "shippingAddress": {
+        "addressLine1": "18 Red Road",
+        "addressLine2": "",
+        "town": "Shelbyville",
+        "county": "BigCounty",
+        "EIRCODE": ""
+    },
+    "createdAt": {
+        "$date": "2024-04-22T19:35:44.122Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T19:35:44.122Z"
+    },
+    "__v": 0
+}]

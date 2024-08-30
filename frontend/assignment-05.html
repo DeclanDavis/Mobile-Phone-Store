@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-05</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Style sheet -->
+    <link rel="stylesheet" href="assignment-05.css">
+    
+</head>
+<body>
+
+
+    <!-- 
+            Bootstrap, W3 Schools, Bootsnipp  
+         1) https://bootsnipp.com/forms 
+         2) https://www.w3schools.com/bootstrap/bootstrap_forms_inputs2.asp  
+         I referenced these to create the styling for the below forms
+    -->
+
+    <br></br>
+    <div class="instruction-outer">
+        <div class="instruction-text"> <b>Web Information Processing - Mobile Shop</b> <br> <strong>Declan Davis</strong><br>
+        </div>
+    </div>
+
+    <!-- CREATE  -->
+    <div class="container mt-5">
+        <form class="form-horizontal" id="createUserForm">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend>C - Create a CUSTOMER</legend>
+
+            <!-- Select Basic -->
+            <div class="form-group">
+                <label class="col-md-4 control-label" for="selectbasic">Title</label>
+                <div class="col-md-4">
+                <select id="selectbasic" name="selectbasic" class="form-control">
+                    <option value="Mx">Mx</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                    <option value="Dr">Dr</option>
+                    <option value="Other">Other</option>
+                </select>
+                </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-firstName">First Name</label>  
+              <div class="col-md-4">
+              <input id="C-firstName" name="C-firstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-surname">Surname</label>  
+              <div class="col-md-4">
+              <input id="C-surname" name="C-surname" type="text" placeholder="Surname" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-mobile">Mobile</label>  
+              <div class="col-md-4">
+              <input id="C-mobile" name="C-mobile" type="text" placeholder="Mobile" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-email">Email Address</label>  
+              <div class="col-md-4">
+              <input id="C-email" name="C-email" type="text" placeholder="Email Address" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+            <!-- HOME ADDRESS-->
+            <div class="form-group">
+                <div class="col-md-4 control-label">HOME ADDRESS</div>  
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-H-AddressLine1">Address Line 1</label>  
+              <div class="col-md-4">
+              <input id="C-H-AddressLine1" name="C-H-AddressLine1" type="text" placeholder="Address Line 1" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="C-H-AddressLine2">Address Line 2</label>  
+              <div class="col-md-4">
+              <input id="C-H-AddressLine2" name="C-H-AddressLine2" type="text" placeholder="Address Line 2" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-H-Town">Town</label>  
+              <div class="col-md-4">
+              <input id="C-H-Town" name="C-H-Town" type="text" placeholder="Town" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-H-CountyCity">County_City</label>  
+              <div class="col-md-4">
+              <input id="C-H-CountyCity" name="C-H-CountyCity" type="text" placeholder="County_City" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="C-H-Eircode">Eircode</label>  
+              <div class="col-md-4">
+              <input id="C-H-Eircode" name="C-H-Eircode" type="text" placeholder="Eircode" class="form-control input-md">
+                
+              </div>
+            </div>
+
+            <!-- SHIPPING ADDRESS-->
+            <div class="form-group">
+                <div class="col-md-4 control-label">SHIPPING ADDRESS</div>  
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label  manditory-label" for="C-S-AddressLine1">Address Line 1</label>  
+              <div class="col-md-4">
+              <input id="C-S-AddressLine1" name="C-S-AddressLine1" type="text" placeholder="Address Line 1" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="C-S-AddressLine2">Address Line 2</label>  
+              <div class="col-md-4">
+              <input id="C-S-AddressLine2" name="C-S-AddressLine2" type="text" placeholder="Address Line 2" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-S-Town">Town</label>  
+              <div class="col-md-4">
+              <input id="C-S-Town" name="C-S-Town" type="text" placeholder="Town" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="C-S-CountyCity">County_City</label>  
+              <div class="col-md-4">
+              <input id="C-S-CountyCity" name="C-S-CountyCity" type="text" placeholder="County_City" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="C-S-Eircode">Eircode</label>  
+                <div class="col-md-4">
+                <input id="C-S-Eircode" name="C-S-Eircode" type="text" placeholder="Eircode" class="form-control input-md">                 
+                </div>
+            </div>
+                        <!-- Button -->
+                        <div class="form-group">
+                            <label class="col-md-4 control-label" for="C-button"></label>
+                            <div class="col-md-4">
+                            <button id="C-button" name="C-button" class="btn btn-primary">Create User</button>
+                            </div>
+                        </div>
+            
+            
+            </fieldset>
+            </form>
+    </div>
+
+        <!-- -------------------------------------------------------- -->
+
+        <!-- RETRIEVE  -->
+    <div class="container mt-5">   
+        <form>
+            <!-- Form Name -->
+            <legend>R - Retrieve a CUSTOMER Randomly, by their Name, or All the CUSTOMERS</legend>
+
+            <!-- Text Input -->
+            <div class="mb-3">
+                <label for="firstName" class="form-label manditory-label">First Name</label>
+                <input type="text" class="form-control" placeholder="Homer" id="firstName">
+            </div>
+            <div>
+                <label for="surname" class="form-label manditory-label">Surname</label>
+                <input type="text" class="form-control" placeholder="Simpson" id="surname">
+            </div>
+
+            <!-- Buttons -->
+            <div class="mb-2">
+                <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-primary" onclick="retrieveMatchingUsers()">Search</button>
+            <button type="button" class="btn btn-primary" onclick="retrieveAllUsers()">Retrieve All</button>
+            <button type="button" class="btn btn-primary" onclick="clearSearch()">Clear Search</button>
+            <button type="button" class="btn btn-primary" onclick="displayRandomUser()">Random Customer</button>
+                </div>
+            </div> 
+            
+            <!-- Textarea In Page Console -->
+            <div class="form-group">
+                <legend class="mb-2" >Results</legend>
+                    <div class="col-md-4">                     
+                    <textarea class="form-control mt-3" id="userList" name="userList" placeholder="In-page page console"></textarea>
+                    </div>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- ------------------------------------------------- -->
+
+
+        <!-- UPDATE  -->
+        <div class="container mt-5">
+          <form class="form-horizontal" id="updateUserForm">
+              <fieldset>
+              
+              <!-- Form Name -->
+              <legend>U - Update a Random CUSTOMER</legend>
+  
+
+              <div class="instruction-outer">
+                <div class="instruction-text"> Please fill in the new data in the manditory: 
+                  <br><b>Title</b>, <b>Mobile</b> and <b>Email Address</b> inputs.<br> You can update any or all of the Address data. <br> This will update a <b>RANDOM CUSTOMER</b></div>
+              </div>
+
+              <!-- Select Basic -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="U-selectbasic">Title</label>
+                  <div class="col-md-4">
+                  <select id="U-selectbasic" name="U-selectbasic" class="form-control" required="">
+                      <option value="Mx">Mx</option>
+                      <option value="Ms">Ms</option>
+                      <option value="Mr">Mr</option>
+                      <option value="Mrs">Mrs</option>
+                      <option value="Miss">Miss</option>
+                      <option value="Dr">Dr</option>
+                      <option value="Other">Other</option>
+                  </select>
+                  </div>
+              </div>
+
+                          <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="U-mobile">Mobile</label>  
+              <div class="col-md-4">
+              <input id="U-mobile" name="U-mobile" type="text" placeholder="Mobile" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="U-email">Email Address</label>  
+              <div class="col-md-4">
+              <input id="U-email" name="U-email" type="text" placeholder="Email Address" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+                 <!-- HOME ADDRESS-->
+                 <div class="form-group">
+                  <div class="col-md-4 control-label">HOME ADDRESS (OPTIONAL)</div>  
+              </div>
+                          
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-H-AddressLine1">Address Line 1</label>  
+                <div class="col-md-4">
+                <input id="U-H-AddressLine1" name="U-H-AddressLine1" type="text" placeholder="Address Line 1" class="form-control input-md">
+                  
+                </div>
+              </div>
+                          
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-H-AddressLine2">Address Line 2</label>  
+                <div class="col-md-4">
+                <input id="U-H-AddressLine2" name="U-H-AddressLine2" type="text" placeholder="Address Line 2" class="form-control input-md">
+                  
+                </div>
+              </div>
+                          
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-H-Town">Town</label>  
+                <div class="col-md-4">
+                <input id="U-H-Town" name="U-H-Town" type="text" placeholder="Town" class="form-control input-md">
+                  
+                </div>
+              </div>
+                          
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-H-CountyCity">County_City</label>  
+                <div class="col-md-4">
+                <input id="U-H-CountyCity" name="U-H-CountyCity" type="text" placeholder="County_City" class="form-control input-md">
+                  
+                </div>
+              </div>
+                          
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-H-Eircode">Eircode</label>  
+                <div class="col-md-4">
+                <input id="U-H-Eircode" name="U-H-Eircode" type="text" placeholder="Eircode" class="form-control input-md">
+                  
+                </div>
+              </div>
+    
+    
+    
+              <!-- SHIPPING ADDRESS-->
+              <div class="form-group">
+                <div class="col-md-4 control-label">SHIPPING ADDRESS (OPTIONAL)</div>  
+              </div>
+                                    
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-S-AddressLine1">Address Line 1</label>  
+                <div class="col-md-4">
+                <input id="U-S-AddressLine1" name="U-S-AddressLine1" type="text" placeholder="Address Line 1" class="form-control input-md">    
+                </div>
+              </div>
+                                    
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-S-AddressLine2">Address Line 2</label>  
+                <div class="col-md-4">
+                <input id="U-S-AddressLine2" name="U-S-AddressLine2" type="text" placeholder="Address Line 2" class="form-control input-md">  
+                </div>
+              </div>
+                                    
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-S-Town">Town</label>  
+                <div class="col-md-4">
+                <input id="U-S-Town" name="U-S-Town" type="text" placeholder="Town" class="form-control input-md">   
+                </div>
+              </div>
+                                    
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-S-CountyCity">County_City</label>  
+                <div class="col-md-4">
+                <input id="U-S-CountyCity" name="U-S-CountyCity" type="text" placeholder="County_City" class="form-control input-md">  
+                </div>
+              </div>
+                                    
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label" for="U-S-Eircode">Eircode</label>  
+                  <div class="col-md-4">
+                  <input id="U-S-Eircode" name="U-S-Eircode" type="text" placeholder="Eircode" class="form-control input-md">                 
+                  </div>
+              </div>
+
+
+
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="U-button"></label>
+            <div class="col-md-4">
+            <button id="U-button" name="U-button" class="btn btn-primary">Update User</button>
+            </div>
+        </div>
+
+
+
+              </fieldset>
+            </form>
+      </div>
+
+
+    <!-- -------------------------------------------------------------------------------------------- -->
+
+    <!-- DELETE -->
+
+    <div class="container mt-5"> 
+      <form class="form-horizontal">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>D - Delete a CUSTOMER</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-firstName">First Name</label>  
+          <div class="col-md-4">
+          <input id="D-firstName" name="D-firstName" type="text" placeholder="First Name" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-surname">Surname</label>  
+          <div class="col-md-4">
+          <input id="D-surname" name="D-surname" type="text" placeholder="Surname" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-mobile">Mobile</label>  
+          <div class="col-md-4">
+          <input id="D-mobile" name="D-mobile" type="text" placeholder="Mobile" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-emailAddress">Email Address</label>  
+          <div class="col-md-4">
+          <input id="D-emailAddress" name="D-emailAddress" type="text" placeholder="Email Address" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="D-button"></label>
+          <div class="col-md-4">
+            <button id="D-button" name="D-button" class="btn btn-danger">Delete</button>
+          </div>
+        </div>
+    </div>
+      
+      </fieldset>
+      </form>
+
+
+<!-- ----------------------------------------------------------------------------
+  ---------------------------MOBILE PHONE---------------------------------------- 
+  -------------------------------------------------------------------------------->
+
+    <!-- CREATE  -->
+    <div class="container mt-5">
+      <form class="form-horizontal" id="createMobileForm">
+          <fieldset>
+          
+          <!-- Form Name -->
+          <legend>C - Create a MOBILE</legend>
+          
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label manditory-label" for="C-Manufacturer">Manufacturer</label>  
+            <div class="col-md-4">
+            <input id="C-Manufacturer" name="C-Manufacturer" type="text" placeholder="Manufacturer e.g. Apple" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label manditory-label" for="C-Model">Model</label>  
+            <div class="col-md-4">
+            <input id="C-Model" name="C-Model" type="text" placeholder="Model e.g. iPhone X-30" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+
+          <!-- Text input-->
+          <div class="form-group">
+            <label class="col-md-4 control-label manditory-label" for="C-Price">Price</label>  
+            <div class="col-md-4">
+            <input id="C-Price" name="C-Price" type="text" placeholder="Price e.g. 99.99" class="form-control input-md" required="">
+              
+            </div>
+          </div>
+          
+
+                      <!-- Button -->
+                      <div class="form-group">
+                          <label class="col-md-4 control-label" for="C-mobile-button"></label>
+                          <div class="col-md-4">
+                          <button id="C-mobile-button" name="C-mobile-button" class="btn btn-primary">Create Mobile Phone</button>
+                          </div>
+                      </div>
+          
+          
+          </fieldset>
+          </form>
+  </div>
+
+
+  <!-----------------------------------------------------------
+    --------------------MOBILE PHONE----------------------------
+    ----------------------------------------------------------->
+
+        <!-- RETRIEVE  -->
+        <div class="container mt-5">   
+          <form>
+              <!-- Form Name -->
+              <legend>R - Retrieve a MOBILE Randomly, by their Manufacturer and Model, or All the MOBILES</legend>
+  
+              <!-- Text Input -->
+              <div class="mb-3">
+                  <label for="Manufacturer" class="form-label manditory-label">Manufacturer</label>
+                  <input type="text" class="form-control" placeholder="Manufacturer e.g. Apple" id="R-Manufacturer">
+              </div>
+              <div>
+                  <label for="Model" class="form-label manditory-label">Model</label>
+                  <input type="text" class="form-control" placeholder="Model e.g. iPhone X-01" id="R-Model">
+              </div>
+  
+              <!-- Buttons -->
+              <div class="mb-2">
+                  <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-primary" onclick="retrieveMatchingMobiles()">Search</button>
+              <button type="button" class="btn btn-primary" onclick="retrieveAllMobiles()">Retrieve All</button>
+              <button type="button" class="btn btn-primary" onclick="clearSearchMobiles()">Clear Search</button>
+              <button type="button" class="btn btn-primary" onclick="displayRandomMobile()">Random Mobile</button>
+                  </div>
+              </div> 
+              
+              <!-- Textarea In Page Console -->
+              <div class="form-group">
+                  <legend class="mb-2" >Results</legend>
+                      <div class="col-md-4">                     
+                      <textarea class="form-control mt-3" id="mobileList" name="mobileList" placeholder="In-page page console"></textarea>
+                      </div>
+              </div>
+  
+          </form>
+      </div>
+
+
+      <!-- ------------------------------------------------- -->
+
+
+        <!-- UPDATE  -->
+        <div class="container mt-5">
+          <form class="form-horizontal" id="updateUserForm">
+              <fieldset>
+              
+              <!-- Form Name -->
+              <legend>U - Update a MOBILE</legend>
+  
+
+              <div class="instruction-outer">
+                <div class="instruction-text"> Please provide the <b>ID</b> of the <b>MOBILE</b> you wish you update. Then fill in the new data in the manditory: 
+                  <br><b>Manufacturer</b>, <b>Model</b> and <b>Price</b> inputs.<br> This will update the specified <b>MOBILE</b></div>
+              </div>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label manditory-label" for="U-mobile-ID">Mobile ID</label>  
+                <div class="col-md-4">
+                <input id="U-mobile-ID" name="U-mobile-ID" type="text" placeholder="Mobile ID" class="form-control input-md" required="">
+                  
+                </div>
+              </div>
+
+              <!-- Text input-->
+              <div class="form-group">
+                <label class="col-md-4 control-label manditory-label" for="U-mobile-Manufacturer">Manufacturer</label>  
+                <div class="col-md-4">
+                <input id="U-mobile-Manufacturer" name="U-mobile-Manufacturer" type="text" placeholder="Manufacturer" class="form-control input-md" required="">
+                  
+                </div>
+              </div>
+
+                          <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="U-mobile-Model">Model</label>  
+              <div class="col-md-4">
+              <input id="U-mobile-Model" name="U-mobile-Model" type="text" placeholder="Model" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="U-mobile-Price">Price</label>  
+              <div class="col-md-4">
+              <input id="U-mobile-Price" name="U-mobile-Price" type="text" placeholder="Price" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+
+
+          <!-- Button -->
+          <div class="form-group">
+            <label class="col-md-4 control-label" for="U-mobile-button"></label>
+            <div class="col-md-4">
+            <button id="U-mobile-button" name="U-mobile-button" class="btn btn-primary">Update Mobile</button>
+            </div>
+        </div>
+
+
+
+              </fieldset>
+            </form>
+      </div>
+
+      <!-- -------------------------------------------------------------------------------------------- -->
+
+    <!-- DELETE -->
+
+    <div class="container mt-5"> 
+      <form class="form-horizontal">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>D - Delete a MOBILE</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-Manufacturer">Manufacturer</label>  
+          <div class="col-md-4">
+          <input id="D-Manufacturer" name="D-Manufacturer" type="text" placeholder="Manufacturer" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-Model">Model</label>  
+          <div class="col-md-4">
+          <input id="D-Model" name="D-Model" type="text" placeholder="Model" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-Price">Price</label>  
+          <div class="col-md-4">
+          <input id="D-Price" name="D-Price" type="text" placeholder="Price" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+                
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="D-Mobile-button"></label>
+          <div class="col-md-4">
+            <button id="D-Mobile-button" name="D-Mobile-button" class="btn btn-danger">Delete</button>
+          </div>
+        </div>
+    </div>
+      
+      </fieldset>
+      </form>
+
+    <!------------------------------------------------------------------------------------------------
+    --------------------------------------ORDERS------------------------------------------------------
+    -------------------------------------------------------------------------------------------------->
+
+
+    <!-- CREATE  -->
+    <div class="container mt-5">
+      <form class="form-horizontal" id="createOrderForm">
+          <fieldset>
+              <!-- Form Name -->
+              <legend>Create an ORDER</legend>
+              
+              <!-- Text input for Customer ID -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="C-Order-customer">Customer ID</label>  
+                  <div class="col-md-4">
+                      <input id="C-Order-customer" name="C-Order-customer" type="text" placeholder="Customer ID" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Text input for Mobile Phone ID -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="C-Order-mobilePhone">Mobile Phone ID</label>  
+                  <div class="col-md-4">
+                      <input id="C-Order-mobilePhone" name="items[0][mobilePhone]" type="text" placeholder="Mobile Phone ID" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Text input for Quantity -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="C-Order-quantity">Quantity</label>  
+                  <div class="col-md-4">
+                      <input id="C-Order-quantity" name="items[0][quantity]" type="text" placeholder="Quantity e.g. 2" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Button to submit the form -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="createOrderButton"></label>
+                  <div class="col-md-4">
+                      <button id="createOrderButton" name="createOrderButton" class="btn btn-primary">Create Order</button>
+                  </div>
+              </div>
+            
+          </fieldset>
+      </form>
+  </div>
+
+<!-- ------------------------------------------------------------------------------------------ -->
+  
+        <!-- RETRIEVE  -->
+        <div class="container mt-5">   
+          <form>
+              <!-- Form Name -->
+              <legend>R - Retrieve all ORDERs, or by the ORDER ID</legend>
+  
+              <!-- Text Input -->
+              <div class="mb-3">
+                  <label for="Manufacturer" class="form-label manditory-label">ORDER ID</label>
+                  <input type="text" class="form-control" placeholder="ORDER ID e.g. 6622df1afc9ae32baf1f1354" id="R-Order">
+              </div>
+  
+              <!-- Buttons -->
+              <div class="mb-2">
+                  <div class="d-flex justify-content-between">
+              <button type="button" class="btn btn-primary" onclick="retrieveOrder($('#R-Order').val())">Search</button>
+              <button type="button" class="btn btn-primary" onclick="retrieveAllOrders()">Retrieve All</button>
+              <button type="button" class="btn btn-primary" onclick="clearSearchOrders()">Clear Search</button>
+              <button type="button" class="btn btn-primary" onclick="displayRandomOrder()">Random Order</button>
+                  </div>
+              </div> 
+              
+              <!-- Textarea In Page Console -->
+              <div class="form-group">
+                  <legend class="mb-2" >Results</legend>
+                      <div class="col-md-4">                     
+                      <textarea class="form-control mt-3" id="OrderList" name="OrderList" placeholder="In-page page console"></textarea>
+                      </div>
+              </div>
+  
+          </form>
+      </div>
+
+
+      <!-- -------------------------------------------------------------------------------------------- -->
+
+      <!-- UPDATE  -->
+    <div class="container mt-5">
+      <form class="form-horizontal" id="createOrderForm">
+          <fieldset>
+              <!-- Form Name -->
+              <legend>Update an ORDER</legend>
+              
+              <div class="instruction-outer">
+                <div class="instruction-text"> Please provide the <b>ID</b> of the <b>ORDER</b> you wish you update. Then fill in the new data in the manditory: 
+                  <br><b>Customer ID</b>, <b>Mobile Phone ID</b> and <b>Quantity</b> inputs.<br> This will update the specified <b>ORDER</b></div>
+              </div>
+            
+            <!-- Text input for Customer ID -->
+            <div class="form-group">
+              <label class="col-md-4 control-label manditory-label" for="U-Order-orderID">Order ID</label>  
+              <div class="col-md-4">
+                  <input id="U-Order-orderID" name="U-Order-orderID" type="text" placeholder="Order ID" class="form-control input-md" required>
+              </div>
+          </div>
+
+              <!-- Text input for Customer ID -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="U-Order-customer">Customer ID</label>  
+                  <div class="col-md-4">
+                      <input id="U-Order-customer" name="U-Order-customer" type="text" placeholder="Customer ID" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Text input for Mobile Phone ID -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="U-Order-mobilePhone">Mobile Phone ID</label>  
+                  <div class="col-md-4">
+                      <input id="U-Order-mobilePhone" name="items[0][mobilePhone]" type="text" placeholder="Mobile Phone ID" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Text input for Quantity -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label manditory-label" for="U-Order-quantity">Quantity</label>  
+                  <div class="col-md-4">
+                      <input id="U-Order-quantity" name="items[0][quantity]" type="text" placeholder="Quantity e.g. 2" class="form-control input-md" required>
+                  </div>
+              </div>
+  
+              <!-- Button to submit the form -->
+              <div class="form-group">
+                  <label class="col-md-4 control-label" for="updateOrderButton"></label>
+                  <div class="col-md-4">
+                      <button id="updateOrderButton" name="updateOrderButton" class="btn btn-primary">Update Order</button>
+                  </div>
+              </div>
+            
+          </fieldset>
+      </form>
+  </div>
+
+  <!-- ----------------------------------------------------------------------------------------- -->
+
+    <!-- DELETE -->
+
+    <div class="container mt-5"> 
+      <form class="form-horizontal">
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>D - Delete an ORDER</legend>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label manditory-label" for="D-Order">Order ID</label>  
+          <div class="col-md-4">
+          <input id="D-Order" name="D-Order" type="text" placeholder="ORDER ID e.g. 6622dfd9fc9ae32baf1f1363" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+                       
+        <!-- Button -->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="D-Order-button"></label>
+          <div class="col-md-4">
+            <button id="D-Order-button" name="D-Order-button" class="btn btn-danger">Delete</button>
+          </div>
+        </div>
+    </div>
+      
+      </fieldset>
+      </form>
+
+
+    <br></br>
+</body>
+
+<!-- JQuery import -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Javascript files -->
+<script src="assignment-05-customerCRUD.js"></script>
+<script src="assignment-05-mobileCRUD.js"></script>
+<script src="assignment-05-orderCRUD.js"></script>
+
+</html>

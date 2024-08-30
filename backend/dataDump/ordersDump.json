@@ -1,0 +1,210 @@
+[{
+    "_id": {
+        "$oid": "6622df1afc9ae32baf1f1354"
+    },
+    "customer": {
+        "$oid": "661ee118dfef4f00ae123ae3"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8c3e2627f0969359aac2"
+            },
+            "quantity": 1,
+            "_id": {
+                "$oid": "6622df1afc9ae32baf1f1355"
+            }
+        }
+    ],
+    "totalPrice": 79.99,
+    "orderDate": {
+        "$date": "2024-04-19T21:16:10.387Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-19T21:16:10.388Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-19T21:16:10.388Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6622dfc3fc9ae32baf1f135a"
+    },
+    "customer": {
+        "$oid": "661ee118dfef4f00ae123ae3"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8cbf2627f0969359aacc"
+            },
+            "quantity": 1,
+            "_id": {
+                "$oid": "6622dfc3fc9ae32baf1f135b"
+            }
+        }
+    ],
+    "totalPrice": 129.99,
+    "orderDate": {
+        "$date": "2024-04-19T21:18:59.865Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-19T21:18:59.867Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-19T21:18:59.867Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6622dfd9fc9ae32baf1f1363"
+    },
+    "customer": {
+        "$oid": "661edd65f76a7c6212ae7767"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8cbf2627f0969359aacc"
+            },
+            "quantity": 1,
+            "_id": {
+                "$oid": "6622dfd9fc9ae32baf1f1364"
+            }
+        }
+    ],
+    "totalPrice": 129.99,
+    "orderDate": {
+        "$date": "2024-04-19T21:19:21.496Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-19T21:19:21.498Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-19T21:19:21.498Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6622ef0a666ceebe10af66bf"
+    },
+    "customer": {
+        "$oid": "661edd65f76a7c6212ae7767"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8cbf2627f0969359aacc"
+            },
+            "quantity": 1,
+            "_id": {
+                "$oid": "6622ef0a666ceebe10af66c0"
+            }
+        }
+    ],
+    "totalPrice": 129.99,
+    "orderDate": {
+        "$date": "2024-04-19T22:24:10.526Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-19T22:24:10.537Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-19T22:24:10.537Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "6622efae666ceebe10af66cc"
+    },
+    "customer": {
+        "$oid": "6622dee8fc9ae32baf1f134b"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8cb02627f0969359aaca"
+            },
+            "quantity": 3,
+            "_id": {
+                "$oid": "6625553c4f8899505ffca581"
+            }
+        }
+    ],
+    "totalPrice": 779.94,
+    "orderDate": {
+        "$date": "2024-04-19T22:26:54.649Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-19T22:26:54.651Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-21T18:04:44.305Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "662653f59ff5aefb2fdb5ca2"
+    },
+    "customer": {
+        "$oid": "661ee225dfef4f00ae123aeb"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8c3e2627f0969359aac2"
+            },
+            "quantity": 1,
+            "_id": {
+                "$oid": "662653f59ff5aefb2fdb5ca3"
+            }
+        }
+    ],
+    "totalPrice": 79.99,
+    "orderDate": {
+        "$date": "2024-04-22T12:11:33.629Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-22T12:11:33.643Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T12:11:33.643Z"
+    },
+    "__v": 0
+},
+{
+    "_id": {
+        "$oid": "662654c29ff5aefb2fdb5ca8"
+    },
+    "customer": {
+        "$oid": "662562e94f8899505ffca5a2"
+    },
+    "items": [
+        {
+            "mobilePhone": {
+                "$oid": "661f8c3e2627f0969359aac2"
+            },
+            "quantity": 4,
+            "_id": {
+                "$oid": "6626b1ab7bf8d2fbc79ca7d7"
+            }
+        }
+    ],
+    "totalPrice": 79.99,
+    "orderDate": {
+        "$date": "2024-04-22T12:14:58.824Z"
+    },
+    "createdAt": {
+        "$date": "2024-04-22T12:14:58.826Z"
+    },
+    "updatedAt": {
+        "$date": "2024-04-22T18:51:23.791Z"
+    },
+    "__v": 0
+}]
