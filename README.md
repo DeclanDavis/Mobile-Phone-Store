@@ -94,7 +94,7 @@ This project was made as part of my module, **Web Information Processing** in Ma
   
 
 
-## Frontend
+# Frontend
 
 ## Overview
 
@@ -102,16 +102,27 @@ The frontend of this project is designed as a single HTML page that includes for
 
 Customers, Mobiles and Orders each have:
 1. **Create Form** - A form for adding new customers, mobiles or orders. Red asterix indicates a maditory field.
+   
+![Create Mobile Form](https://github.com/DeclanDavis/Mobile-Phone-Store/blob/main/images/mobile_Create.png?raw=true)
+
 2. **Retrieve Form** - A search bar with an in page console view displaying the results in JSON format.  Can retrieve a customer, mobile or order randomly, by searching it's name or retrieve all the results.
+   
+![Retrieve Mobile Form](https://github.com/DeclanDavis/Mobile-Phone-Store/blob/main/images/mobile_RetrieveAll.png?raw=true)
+   
 3. **Update Form** - A form for updating a random customer, mobile or order information.
+
+![Update Mobile Form](https://github.com/DeclanDavis/Mobile-Phone-Store/blob/main/images/mobile_Update.png?raw=true)
+   
 4. **Delete Form** - A deletion form based on composite key depending on the entity and a confirmation box to confirm deletion.
+
+![Delete Mobile Form](https://github.com/DeclanDavis/Mobile-Phone-Store/blob/main/images/mobile_Delete.png?raw=true)
 
 
 **JavaScript (AJAX and jQuery)**
    - Handles CRUD operations by sending AJAX requests to the backend and updating the frontend dynamically based on the responses.
 
 
-## DATABASE DESIGN
+# DATABASE DESIGN
 
 This project uses a NoSQL database design with MongoDB, focusing on collections for two main entities: `customer` and `mobilePhone`. These collections store documents that represent individual customer records and mobile phone models, respectively. A third collection, `order`, defines the relationship between customers and mobile phones, acting as a bridge to capture the mobile phones purchased by each customer.
 
