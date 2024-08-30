@@ -3,7 +3,7 @@
 ## **Overview**
 This is a web-based application for an online mobile phone store maintaining a database of customers, mobiles and orders. This project provides CRUD functionality for Creating, Retrieving (Searching), Updating, and Deleting Customer, Mobile and Order information from a MongoDB database.
 
-This project was made as part of my module, **Web Inofrmation Processing** in Maynooth University, National University of ireland Maynooth.
+This project was made as part of my module, **Web Information Processing** in Maynooth University, National University of Ireland Maynooth.
 
 ## Technologies Used
 
@@ -78,16 +78,15 @@ This project was made as part of my module, **Web Inofrmation Processing** in Ma
 
      ```
      </body>
-
-<!-- JQuery import -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-
-<!-- Javascript files -->
-<script src="assignment-05-customerCRUD.js"></script>
-<script src="assignment-05-mobileCRUD.js"></script>
-<script src="assignment-05-orderCRUD.js"></script>
-
-</html>
+      <!-- JQuery import -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+      
+      <!-- Javascript files -->
+      <script src="assignment-05-customerCRUD.js"></script>
+      <script src="assignment-05-mobileCRUD.js"></script>
+      <script src="assignment-05-orderCRUD.js"></script>
+      
+      </html>
      ```
 
 4. **Run the Frontend:**
@@ -144,7 +143,7 @@ This project uses a NoSQL database design with MongoDB, focusing on collections 
    - `npm run dev`
 
 2. **Frontend:**
-   - Open `index.html` in your web browser.
+   - Open `assignment-05.html` in your web browser.
 
 ## Testing Backend Routes in Postman
 
