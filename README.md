@@ -1,4 +1,4 @@
-# **Mobile Shop Customer Management Application**
+# **Mobile Phone Store Application**
 
 ## **Overview**
 This is a web-based application for an online mobile phone store maintaining a database of customers, mobiles and orders. This project provides CRUD functionality for Creating, Retrieving (Searching), Updating, and Deleting Customer, Mobile and Order information from a MongoDB database.
